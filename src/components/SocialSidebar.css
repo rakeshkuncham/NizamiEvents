@@ -1,0 +1,74 @@
+.social-sidebar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 1000;
+  width: 60px; /* Set width of the sidebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the social icons */
+}
+
+/* Adjustments for the list style */
+.social-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-sidebar li {
+  margin: 5px 0; /* Space between social icons */
+}
+
+/* Styling for the links */
+.social-sidebar a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  width: 40px; /* Set fixed width for the icons */
+  justify-content: center;
+  position: relative; /* Allows positioning of the text when it appears */
+}
+
+/* Social media label (text) */
+.social-sidebar span {
+  display: none;
+  margin-left: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  position: absolute; /* Positions the label to the right of the icon */
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Hover state for the link */
+.social-sidebar a:hover {
+  transform: translateX(5px); /* Small shift on hover */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 150px; /* Expand the link on hover */
+}
+
+.social-sidebar a:hover span {
+  display: inline; /* Show the label when hovering */
+}
+
+/* Social Media Colors */
+.whatsapp a { background-color: #25D366; }
+.facebook a { background-color: #3b5998; }
+.twitter a { background-color: #1DA1F2; }
+.youtube a { background-color: #FF0000; }
+.instagram a { 
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+/* Icon Styles */
+.social-sidebar svg {
+  font-size: 20px;
+  width: 20px;
+}

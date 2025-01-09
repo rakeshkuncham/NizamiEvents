@@ -1,0 +1,99 @@
+.services {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  overflow: hidden;
+}
+
+.services h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.services .lead {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+  animation: scrollServices 20s linear infinite; /* Animation for scrolling */
+}
+
+.service-card {
+  background: #f1f1f1; /* Light background color */
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  flex: 0 0 280px; /* Ensures each service box has equal width */
+  height: 280px; /* Makes each service box square */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(233, 30, 99, 0.15);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #e91e63;
+  margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Keyframes for right to left scrolling */
+@keyframes scrollServices {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Add light background colors for each service */
+.service-card:nth-child(1) {
+  background: #f9f9f9;
+}
+
+.service-card:nth-child(2) {
+  background: #f3f4f6;
+}
+
+.service-card:nth-child(3) {
+  background: #e8f1f3;
+}
+
+.service-card:nth-child(4) {
+  background: #fce4ec;
+}
+
+.service-card:nth-child(5) {
+  background: #fff3e0;
+}
+
+.service-card:nth-child(6) {
+  background: #e8f5e9;
+}

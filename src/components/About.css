@@ -1,0 +1,57 @@
+/* About Page Styles */
+.overview {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/events-bg.jpg') center/cover no-repeat;
+  padding: 150px 0 80px;
+  text-align: center;
+  color: white;
+}
+
+.overtext {
+  margin-bottom: 20px;
+}
+
+.overtext a {
+  color: white;
+  text-decoration: none;
+}
+
+.overtext span {
+  margin: 0 10px;
+}
+
+.company h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.leftside {
+  padding: 60px 0;
+}
+
+.first {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.second {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.third {
+  color: #333;
+  font-size: 28px;
+  margin: 30px 0 20px;
+}
+
+.second ul {
+  padding-left: 20px;
+}
+
+.second li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+.welcome {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+.welcome h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome .lead {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-content p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
